@@ -1,0 +1,56 @@
+body {
+  height: 75vh;
+  width: 75vw;
+  margin: auto;
+}
+.title {
+  text-align: center;
+}
+.containerg {
+  display: grid;
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;
+}
+
+.gridColor {
+  background-color: rgb(172, 172, 194);
+}
+
+.ui {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: rgb(241, 235, 235);
+  cursor: pointer;
+  border: 1px solid rgb(224, 223, 223);
+  border-radius: 40px;
+  height: 2rem;
+  width: 5rem;
+}
+
+button:hover {
+  border: 1px solid black;
+}
+
+.footer {
+  width: 10rem;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .containerg {
+    width: 16em;
+    height: 16rem;
+  }
+
+  .ui button {
+    margin: 5px;
+  }
+}
