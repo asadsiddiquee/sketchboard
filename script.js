@@ -3,7 +3,9 @@ var slider = document.querySelector('#sizeRange');
 const colorButtons = document.querySelectorAll('.color-choice');
 const clearButton = document.querySelector('.clear');
 var color = 'black';
+
 createGrid(16);
+
 function createGrid(gridCount) {
   let gridArea = gridCount * gridCount;
   for (let i = 0; i < gridArea; i++) {
